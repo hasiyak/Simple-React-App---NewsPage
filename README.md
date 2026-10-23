@@ -1,52 +1,70 @@
-# Simple-React-App---NewsPage
-A modern React-based news web application that fetches and displays real-time breaking news across various categories like technology, business, health, sports, and entertainment using the NewsData API, styled with Bootstrap.
+# Getting Started with Create React App
 
-Markdown
-# NewsMag - React News Application 📰
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-NewsMag is a dynamic and responsive web application built with React JS that fetches and displays the latest breaking news from Sri Lanka and around the world across multiple categories (Technology, Business, Health, Sports, Entertainment) using the **NewsData API**.
+## Available Scripts
 
-## 🚀 Features
+In the project directory, you can run:
 
-* **Real-time News Fetching:** Integrated with NewsData API to retrieve up-to-date headlines.
-* **Category Filtering:** Easily browse news by specific categories (Tech, Sports, Health, etc.).
-* **Responsive Design:** Styled using **Bootstrap** for seamless viewing across mobile, tablet, and desktop devices.
-* **Fallback Handling:** Displays placeholder images and notices gracefully when news thumbnails or descriptions are missing.
+### `yarn start`
 
-## 🛠️ Built With
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* **React JS** (Frontend Library)
-* **Bootstrap** (UI Framework & Styling)
-* **NewsData API** (News Data Provider)
-* **Vite** (Build Tool)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## ⚙️ Getting Started & Installation
+### `yarn test`
 
-To run this project locally, follow these steps:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/news-mag.git](https://github.com/your-username/news-mag.git)
-Navigate to the project directory:
+### `yarn build`
 
-Bash
-cd news-mag
-Install dependencies:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Bash
-yarn install
-# or
-npm install
-Set up Environment Variables:
-Create a .env file in the root directory and add your NewsData API key:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Code snippet
-VITE_API_KEY=your_actual_api_key_here
-Run the application:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Bash
-yarn start
-# or
-npm run dev
-📄 License
-This project is open source and available under the MIT License.
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
